@@ -28,8 +28,6 @@ body {
 }
 
 .header {
-  background-image: url(https://mdn.mozillademos.org/files/11305/firefox.png),
-  url(https://mdn.mozillademos.org/files/11307/bubbles.png);
   background-image:   url("images/logo.png"),
 url('images/background.jpg');
   background-size: cover;
@@ -62,13 +60,15 @@ url('images/background.jpg');
 }
 
 .info {
-  margin: 4em auto;
+  /* margin: 4em auto; */
   padding: 1em;
   position: relative;
+  background-image:url("images/background-inv.jpg");
+   background-size: cover;
 }
 .info-text {
   font-family: myFirstFont;
-  color: #333;
+  color: #ddd;
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 20px;
