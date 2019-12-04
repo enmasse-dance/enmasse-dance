@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFirstFont;
-  src: url("fonts/LarsTrial-RegularCondensed.otf");
+  src: url("fonts/Lars-MediumCondensedWeb.woff");
 }
 
 body {
@@ -33,15 +33,19 @@ url('images/background.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
+  heigh:100%;
 }
 
 .header img {
   display: block;
+  position: relative;
   margin-left: auto;
 margin-right: auto;
-width: 50%;
-padding-top: 8%;
+width: 100%;
+height: auto;
+top: -40px;
 }
+
 .headerText{
   color:#fff;
 
@@ -61,7 +65,7 @@ padding-top: 8%;
   font-family: myFirstFont;
   left: 50%;
   position: absolute;
-  top: 70%;
+  top: 80%;
   transform: translate(-50%, -55%);
   text-align: center;
 }
@@ -87,4 +91,8 @@ padding-top: 8%;
   -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   margin-bottom: 16px;
+}
+
+.sib-form {
+  color:#000
 }
