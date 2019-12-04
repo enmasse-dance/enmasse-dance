@@ -52,11 +52,32 @@ url('images/background.jpg');
   transform: translate(-50%, -55%);
   text-align: center;
 }
-.info {
+.header2 {
   font-family: myFirstFont;
   left: 50%;
   position: absolute;
   top: 80%;
   transform: translate(-50%, -55%);
   text-align: center;
+}
+
+.info {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.info-text {
+  font-family: myFirstFont;
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
 }
