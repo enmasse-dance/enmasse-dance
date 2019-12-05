@@ -102,9 +102,11 @@ width: 1500px;
   color: #fff;
   font-size: 1.3rem;
   /* font-weight: 700; */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   text-align: center;
   padding-bottom: 10%;
+  padding-top: 5%;
+
 }
 
 
