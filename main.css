@@ -1,5 +1,5 @@
 @font-face {
-  font-family: myFirstFont;
+  font-family: larsMedium;
   src: url("fonts/Lars-MediumCondensedWeb.woff");
 }
 
@@ -13,7 +13,6 @@ body {
   margin: 0;
   background: #f2f6e9;
 }
-/*--- navigation bar ---*/
 
 .header {
   background-image:
@@ -71,26 +70,16 @@ width: 1500px;
 }
 
 .header2 {
-  font-family: myFirstFont;
+  font-family: larsMedium;
   left: 50%;
   position:absolute;
   top: 80%;
   transform: translate(-47%, -45%);
   text-align: center;
   overflow: visible;
-  padding-bottom: 10px;
 }
 
-/* .info {
-  background-image: url('images/background-inv.jpg');
-  background-position:top,center;
-  background-repeat: no-repeat;
-  background-size: auto 100%; */
-  /* position: relative; */
-  /* height:100%; */
-  /* background-color:#0f0;
-  padding-bottom:100%;
-} */
+
 .info {
   background-image:
   url('images/background-inv.jpg');
@@ -126,7 +115,7 @@ width: 1500px;
 .page-footer {
   margin-top:10%;
   top:400px;
-  font-family: myFirstFont;
+  font-family: larsMedium;
   color: #fff
   display:block;
 /* margin-right: 50%; */
