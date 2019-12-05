@@ -30,6 +30,9 @@ url('images/background.jpg');
     position: relative;
 }
 
+.signup {
+  padding-top:20%;
+}
 
 /* .header img {
   display: block;
@@ -64,7 +67,7 @@ width: 1500px;
   left: 50%;
   position: absolute;
   top: 80%;
-  transform: translate(-50%, -55%);
+  transform: translate(-47%, -55%);
   text-align: center;
 }
 
@@ -93,6 +96,8 @@ width: 1500px;
 
 
 .info-text {
+  margin-left: 7%;
+  margin-right: 7%;
   font-family: larsRegular;
   color: #fff;
   font-size: 1.3rem;
