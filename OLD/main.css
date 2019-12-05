@@ -7,16 +7,33 @@
   font-family: larsRegular;
   src: url("fonts/LarsTrial-RegularCondensed.otf");
 }
-
 body {
   padding: 0;
   margin: 0;
   background: #f2f6e9;
 }
 /*--- navigation bar ---*/
+.navbar {
+  background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
 
 .header {
   background-image:
+   url('images/logo-text.png'),
 url('images/background.jpg');
   background-size: cover;
   background-position: center;
@@ -24,41 +41,33 @@ url('images/background.jpg');
   height:100%;
   background-color:#0f0;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-position: center;
-    position: relative;
 }
-
 
 /* .header img {
   display: block;
-  position: static;
-    margin-left: auto;
+  position: absolute;
+  margin-left: auto;
 margin-right: auto;
 width: 100%;
 height: auto;
 top: -40px;
 } */
 
-.image-container {
-    left: 50%;
-    position: absolute;
-    top: 80%;
-    transform: translate(-50%, -80%);
-}
-.header img {
-
-    display: block;
-width: 1500px;
-}
-
-
-
 .headerText{
   color:#fff;
-}
 
+}
+.title{
+  font-family: baker-signet-web, serif;
+  /* font-style: normal; */
+  font-weight: 400;
+  /* font-size: 12rem; */
+  left: 50%;
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
 .header2 {
   font-family: myFirstFont;
   left: 50%;
@@ -68,27 +77,18 @@ width: 1500px;
   text-align: center;
 }
 
-/* .info {
+.info {
+  /* margin: 4em auto; */
+  /* padding: 1em;
+  position: relative; */
   background-image: url('images/background-inv.jpg');
   background-position:top,center;
   background-repeat: no-repeat;
-  background-size: auto 100%; */
+  background-size: auto 100%;
   /* position: relative; */
   /* height:100%; */
-  /* background-color:#0f0;
-  padding-bottom:100%;
-} */
-.info {
-  background-image:
-  url('images/background-inv.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  height:100%;
   background-color:#0f0;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-
+  padding-bottom:100%;
 }
 
 
@@ -99,7 +99,6 @@ width: 1500px;
   /* font-weight: 700; */
   margin-bottom: 20px;
   text-align: center;
-  padding-bottom: 10%;
 }
 
 
