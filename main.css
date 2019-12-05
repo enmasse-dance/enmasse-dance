@@ -27,11 +27,13 @@ url('images/background.jpg');
   background-size: 100% 100%;
     /* background-repeat: no-repeat; */
     background-position: center;
-    position: relative;
-}
+    /* position: relative; */
+    overflow:hidden;
+  }
 
 .signup {
   padding-top:20%;
+  padding-bottom: 15px;
 }
 
 /* .header img {
@@ -49,7 +51,6 @@ top: -40px;
     position: absolute;
     top: 80%;
     transform: translate(-50%, -80%);
-    overflow:hidden;
 
 }
 .header img {
@@ -70,6 +71,7 @@ width: 1500px;
   top: 80%;
   transform: translate(-47%, -45%);
   text-align: center;
+  overflow: visible;
 }
 
 /* .info {
